@@ -1,0 +1,189 @@
+/* Cores
+#000000
+#FD0000
+#B11A2C 
+font-family: 'Great Vibes', cursive;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 95%;
+    display: block;
+    /*O MAIS COMUM PARA ALINHAMENTO CENTRAL*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #B11A2C;
+}
+
+/*HEADER ================================================================*/
+header {
+    background-color: black;
+    padding-top: 30px;
+}
+
+header>h1.letter-alfa {
+    font-family: 'Great Vibes', cursive;
+    color: #B11A2C;
+    position: absolute;
+    margin-top: 60px;
+    text-indent: 70px;
+    font-size: 60px;
+    /*60px*/
+}
+
+header>h1.title-normal-letter {
+    color: white;
+    text-indent: 70px;
+    position: absolute;
+    margin-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    /*20px*/
+}
+
+/*NAV - ALFA ROMEO ================================================================*/
+nav {
+    background-color: white;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #FD0000;
+    padding: 10px;
+}
+
+nav>a:hover {
+    background-color: #FD0000;
+    color: white;
+    transition-duration: 0.2s;
+    text-decoration: underline;
+}
+
+a.link-brasil {
+    color: green;
+}
+
+a.link-brasil:hover {
+    background-color: green;
+    color: yellow;
+}
+
+/*MAIN - ALFA ROMEO ================================================================*/
+main {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+/*VIDEO - ALFA ROMEO ================================================================*/
+div.video-alfa-romeo {
+    background-color: white;
+    margin: 0;
+    /*os negativos são para 'engolir' as margens e paddings do 'main'*/
+    padding: 20px;
+    /*A PARTIR DAQUI E NA DIV ABAIXO É MACETE PURO*/
+    padding-bottom: 57%;
+    /*eliminar as barras pretas horizontais*/
+    position: relative;
+}
+
+div.video-alfa-romeo>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/*IMG - ALFA ROMEO ================================================================*/
+img.img-drivers {
+    /* display: inline-block;
+    width: 40%; */
+}
+
+figure {
+    margin: 0px 15px 0 15px;
+}
+
+figcaption {
+    margin: 5px 25px;
+}
+
+div.each-img {
+    margin: 20px 0 45px 0;
+}
+
+/*TEXTOS - ALFA ROMEO ================================================================*/
+h2 {
+    margin: 3px 15px;
+    padding: 3px 0 8px 0;
+}
+
+p {
+    margin: 3px 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    margin: 5px;
+}
+
+a.link-footer {
+    color: aqua;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+a.link-footer:hover {
+    font-size: 20px;
+    background-color: white;
+    color: #B11A2C;
+    padding: 3px;
+}
+
+
+/* TELA SMARTHPHONE ===========================================================*/
+@media screen and (max-width: 800px) {
+
+    /*HEADER - ALFA ROMEO -----------------------------------------------------*/
+    header {
+        background-color: black;
+        padding-top: 3px;
+    }
+
+    header>h1.letter-alfa {
+        margin-top: 15px;
+        text-indent: 35px;
+        font-size: 38px;
+    }
+
+    header>h1.title-normal-letter {
+        text-indent: 41px;
+        margin-top: 63px;
+        font-size: 19px;
+    }
+
+    header > p {
+        display: none;
+    }
+}
