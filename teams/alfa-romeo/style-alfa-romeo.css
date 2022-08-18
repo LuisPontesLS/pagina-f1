@@ -36,22 +36,21 @@ header>h1.letter-alfa {
     position: absolute;
     margin-top: 60px;
     text-indent: 70px;
-    font-size: 60px;
+    font-size: 105px;
     /*60px*/
 }
 
 header>h1.title-normal-letter {
     color: white;
-    text-indent: 70px;
+    text-indent: 282px;
     position: absolute;
-    margin-top: 130px;
+    margin-top: 170px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 20px;
-    /*20px*/
+    font-size: 33px;
 }
 
-/*NAV - ALFA ROMEO ================================================================*/
+/*NAV ================================================================*/
 nav {
     background-color: white;
     text-indent: 20px;
@@ -138,12 +137,14 @@ h2 {
 
 p {
     margin: 3px 15px;
+    text-align: justify;
+    text-indent: 40px;
 }
 
 footer {
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     padding: 3px;
     margin: 5px;
 }
@@ -161,11 +162,15 @@ a.link-footer:hover {
     padding: 3px;
 }
 
+p.p-footer {
+    text-align: center;
+}
+
 
 /* TELA SMARTHPHONE ===========================================================*/
 @media screen and (max-width: 800px) {
 
-    /*HEADER - ALFA ROMEO -----------------------------------------------------*/
+    /*HEADER - SMARTPHONE -----------------------------------------------------*/
     header {
         background-color: black;
         padding-top: 3px;
@@ -183,7 +188,22 @@ a.link-footer:hover {
         font-size: 19px;
     }
 
-    header > p {
+    header>p {
         display: none;
+    }
+
+    /*NAV SMARTPHONE -----------------------------------------------------*/
+
+    nav {
+        background-color: black;
+    }
+
+    a.nav-reduzido {
+        display: none;
+    }
+
+    /*FOOTER SMARTPHONE -----------------------------------------------------*/
+    span {
+        font-size: 2px;
     }
 }
