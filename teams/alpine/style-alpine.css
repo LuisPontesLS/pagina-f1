@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* 
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; */
+}
+
+#005baa #FFFFFF #FF6FCC 
+
+body {
+    background-color: #005baa;
+}
+
+img.img-capa {
+    max-width: 99%;
+}
+
+main {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+img.img-driver {
+    width: 95%;
+    display: block;
+    /*O MAIS COMUM PARA ALINHAMENTO CENTRAL*/
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 26em
+}
+
+img.logo-redes-sociais {
+    max-width: 5%;
+    margin-left: 13px;
+}
+
+footer {
+    background-color: #005baa;
+}
